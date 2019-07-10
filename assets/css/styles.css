@@ -87,7 +87,7 @@ input.form-control, input.form-control:focus {
   margin: 0 auto;
   width: 510px;
   position: fixed;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -99,10 +99,65 @@ input.form-control, input.form-control:focus {
 }
 
 .header h1 {
-  margin-top: 15vh;
   font-size: 4rem;
 }
 
 .header .subtitle {
   font-size: 1.45rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .quarter-circle {
+    height: 200px;
+    width: 200px;
+  }
+
+  .quarter-circle-2 {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .quarter-circle {
+    height: 120px;
+    width: 120px;
+  }
+
+  .quarter-circle-2 {
+    height: 120px;
+    width: 120px;
+  }
+
+  .header {
+    width: 318px;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+
+  .header .subtitle {
+    font-size: 1rem;
+    margin-top: 0px;
+  }
+
+  .cta {
+    width: 100%;
+  }
+
+  input.form-control, input.form-control:focus {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 0.8rem;
+    /*padding-top: 15px;*/
+  }
+
+  .btn.btn-primary {
+    font-size: 0.8rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 }
