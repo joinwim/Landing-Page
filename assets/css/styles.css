@@ -102,7 +102,7 @@ input.form-control, input.form-control:focus {
   font-size: 4rem;
 }
 
-.header .subtitle {
+.header #subtitle {
   font-size: 1.45rem;
 }
 
@@ -138,7 +138,7 @@ input.form-control, input.form-control:focus {
     margin-bottom: 0px;
   }
 
-  .header .subtitle {
+  .header #subtitle {
     font-size: 1rem;
     margin-top: 0px;
   }
