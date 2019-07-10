@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://joinwim.com/sitemap.xml
