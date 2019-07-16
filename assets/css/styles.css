@@ -13,18 +13,19 @@
 }
 */
 
-@import url('https://fonts.googleapis.com/css?family=Lora:700|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
 body, .wrapper {
   overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Lora", serif;
+  font-family: "Nunito", serif;
+  font-weight: bold;
 }
 
 p, input, button {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .btn:focus,.btn:active {
